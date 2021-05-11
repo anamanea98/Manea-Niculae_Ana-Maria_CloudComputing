@@ -2,15 +2,18 @@
 
   Proiectul curent prezinta o aplicatie mobila realizata in Android Studio, folosind limbajul Java.
 
-  Aplicatia reprezinta un mod usor de cautare direct in baza IMDB. In urma unui request catre OMDB api, in aplicatie se incarca informatii generale despre filmul cautat.
+  Aplicatia reprezinta un mod usor de cautare direct in baza IMDB. In urma unui request catre OMDB api in aplicatie se incarca informatii generale despre filmul cautat.
   
 API-ul OMDb este un serviciu web RESTful pentru a obține informații despre filme.
+
 Toate cererile se trimit catre: http://www.omdbapi.com/?apikey=[yourkey]&
 
-Pentru a primi un apikey este nevoie sa faci cont pe https://www.omdbapi.com/ si ulterior vei primi un e-mail in care se va specifica si cheia.
+Pentru a primi un apikey este nevoie sa faci cont pe [OMDB api site](https://www.omdbapi.com/) si ulterior vei primi un e-mail in care se va specifica si cheia.
 
 Exemplu de cerere: http://www.omdbapi.com/?s=joker&y=2019&apikey=[yourkey]
+
 Exemplu de raspuns: 
+```json
           {
           "Search":[
           {
@@ -45,12 +48,13 @@ Exemplu de raspuns:
           "totalResults":"4",
           "Response":"True"
           }
+```
 In aplicatie se afiseaza doar prima inregistrare din JSON.
 
-Ecran initial:
+## Ecran initial:
   ![ecran_initial](https://user-images.githubusercontent.com/48086918/117872465-5cbb6680-b2a7-11eb-94e3-de69f49aadde.jpg)
 
-Informatii afisate:
+## Informatii afisate in aplicatie:
   ![after_search1](https://user-images.githubusercontent.com/48086918/117872502-6ba21900-b2a7-11eb-8610-7043a4dafa47.jpg)
 
   ![after_search2](https://user-images.githubusercontent.com/48086918/117872545-76f54480-b2a7-11eb-9a6a-1645e5a9ef01.jpg)
