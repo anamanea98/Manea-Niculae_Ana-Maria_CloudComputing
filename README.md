@@ -49,7 +49,7 @@ Exemplu de raspuns:
           "Response":"True"
           }
 ```
-In aplicatie se afiseaza doar prima inregistrare din JSON.
+In aplicatie se afiseaza doar prima inregistrare din JSON-ul primit drept raspuns.
 
 ## Ecran initial:
   ![ecran_initial](https://user-images.githubusercontent.com/48086918/117872465-5cbb6680-b2a7-11eb-94e3-de69f49aadde.jpg)
