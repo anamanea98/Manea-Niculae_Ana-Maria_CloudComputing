@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="6">
+                    <EditText
+                        android:id="@+id/etSearch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:hint="@string/title"/>
+                    <EditText
+                        android:id="@+id/anSearch"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="number"
+                        android:maxLength="4"
+                        android:hint="@string/an_aparitie_optional"/>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="metoda_afisare"
+                    android:layout_marginTop="25dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@android:color/white"
+                    android:text="@string/afiseaza"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/tvTitluInformatii"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+            <TextView
+                android:id="@+id/tvRatingIMDB1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rating_imdb"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/tvRatingIMDB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/tvAn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/an_aparitie"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/tvAn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/tvDurata1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/durata"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/tvDurata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/tvActori1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/actori"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvActori"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:textAlignment="center" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/tvIntriga1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/intriga"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvIntriga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"/>
+            
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

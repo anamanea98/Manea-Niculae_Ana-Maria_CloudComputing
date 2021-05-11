@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Manea-Niculae_Ana-Maria_CloudComputing</string>
+    <string name="actori">Actori:</string>
+    <string name="intriga">Intriga:</string>
+    <string name="an_aparitie_optional">An aparitie...(optional)</string>
+    <string name="title">Titlu..</string>
+    <string name="an_aparitie">An aparitie:</string>
+    <string name="afiseaza">Afiseaza</string>
+    <string name="rating_imdb">Rating IMDB:</string>
+    <string name="durata">Durata:</string>
+    <string name="on_netflix">Gasit pe Netflix:</string>
+</resources>
