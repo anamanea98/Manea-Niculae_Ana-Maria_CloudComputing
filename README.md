@@ -61,6 +61,6 @@ In aplicatie se afiseaza doar prima inregistrare din JSON-ul primit drept raspun
 
   ![after_search2](https://user-images.githubusercontent.com/48086918/117872545-76f54480-b2a7-11eb-9a6a-1645e5a9ef01.jpg)
   
-De asemenea in cazul posterului a fost folosita o cerere la adresa URL primita in cadrul JSON-ului, iar rezultatul a fost redesenat in cadrul aplicatiei.
+De asemenea, in cazul posterului a fost folosita o cerere la adresa URL primita in cadrul JSON-ului, iar rezultatul a fost redesenat in cadrul aplicatiei.
 
 Multumesc!
