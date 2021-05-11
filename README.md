@@ -47,3 +47,10 @@ Exemplu de raspuns:
           }
 In aplicatie se afiseaza doar prima inregistrare din JSON.
 
+Ecran initial:
+  ![ecran_initial](https://user-images.githubusercontent.com/48086918/117872465-5cbb6680-b2a7-11eb-94e3-de69f49aadde.jpg)
+
+Informatii afisate:
+  ![after_search1](https://user-images.githubusercontent.com/48086918/117872502-6ba21900-b2a7-11eb-8610-7043a4dafa47.jpg)
+
+  ![after_search2](https://user-images.githubusercontent.com/48086918/117872545-76f54480-b2a7-11eb-9a6a-1645e5a9ef01.jpg)
