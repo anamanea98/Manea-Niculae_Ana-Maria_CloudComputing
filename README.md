@@ -2,7 +2,9 @@
 
   Proiectul curent prezinta o aplicatie mobila realizata in Android Studio, folosind limbajul Java.
 
-  Aplicatia reprezinta un mod usor de cautare direct in baza IMDB. In urma unui request catre OMDB api in aplicatie se incarca informatii generale despre filmul cautat.
+  Aplicatia reprezinta un mod usor de cautare direct in baza IMDB. 
+  
+  In urma unui request catre OMDB api in aplicatia Android se incarca informatii generale despre filmul cautat.
   
 API-ul OMDb este un serviciu web RESTful pentru a obține informații despre filme.
 
